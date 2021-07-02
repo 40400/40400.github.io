@@ -1,4 +1,5 @@
-a {color:green;}
+a {color:red}
+a:hover{color:green}
 body {display: flex flex-direction: column}
 main {display: flex}
 main {flex: auto}
