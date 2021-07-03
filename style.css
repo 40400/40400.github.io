@@ -9,15 +9,7 @@ aside {flex: 1;
 article {flex: 3;
 	border: 2px solid black;
 }
-body {
-    font-size: 14px;
-    word-wrap: break-word;
-    color: #333;
-    margin-bottom: 15px;
-    text-indent: 2em;
-    line-height: 24px;
-    zoom: 1
-}
+
 html, body {
 	height: 100%;
 	min-height: 100%;
