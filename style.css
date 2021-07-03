@@ -3,7 +3,9 @@ a:hover{color: green;}
 body {display: flex; flex-direction: column}
 main {display: flex}
 main {flex: auto}
-aside {flex: 1;
+aside {flex: 1;}
+article {flex: 3;
+	border: 2px solid black;
 	border: 2px solid black;
 	font-size: 14px;
 	word-wrap: break-word;
@@ -12,9 +14,6 @@ aside {flex: 1;
 	text-indent: 2em;
 	line-height: 24px;
 	zoom: 1
-}
-article {flex: 3;
-	border: 2px solid black;
 }
 
 html, body {
