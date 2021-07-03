@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
-
-
+a {color: red;}
+a:hover{color: green;}
+body {display: flex; flex-direction: column}
+main {display: flex}
+main {flex: auto}
+aside {flex: 1}
+article {flex: 3}
 html, body {
 	height: 100%;
 	min-height: 100%;
