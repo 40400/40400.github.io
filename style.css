@@ -3,9 +3,10 @@ a:hover{color: green;}
 body {display: flex; flex-direction: column}
 main {display: flex}
 main {flex: auto}
-aside {flex: 1;}
-article {flex: 3;
+aside {	flex: 1;
 	border: 2px solid black;
+}
+article {flex: 3;
 	border: 2px solid black;
 	font-size: 14px;
 	word-wrap: break-word;
