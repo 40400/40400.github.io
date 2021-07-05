@@ -60,6 +60,25 @@
 			<p>尾田荣一郎在初一时，第一次画了海贼漫画，而尾田对孩子冒险所抱着的想象太丰富，就一本笔记本也画不完。他认识到用“一期完”的形式来画海贼漫画是不可能的，于是他决定要在《少年JUMP》上连载海贼漫画 </p>
 			<h3>点击查看全员大图</h3>
             <img src="ziyuan/ZZ.png" class="small" id="smart-image">
+		<!-- Valine 评论 start  -->
+		<!--评论显示区，请插入合适的位置-->
+		<div id="comment"></div>
+		<!--Leancloud 操作库:-->
+		<script src="//cdn1.lncld.net/static/js/3.6.1/av-min.js"></script>
+		<!--Valine 的核心代码库-->
+		<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+		<!-- 引入一个生产md5的js，用于对id值进行处理，防止其过长 -->
+		<script src="{{ site.baseurl }}/js/md5.min.js"></script>
+		<script>
+	    	new Valine({
+       		 el:'#comment',
+        		path: md5(location.pathname),
+       		 appId: 'hvyY9aIUsoAlC1VALz0JcGnS-gzGzoHsz',
+        		appKey: 'GPN9Kh52t3sOwThwYCsYNkkA',
+        		placeholder: 'ヾﾉ≧∀≦)o快来评论一下吧!',
+        		avatar:''
+    		});
+		</script>
         </article>
     </main>
     <footer>by <a href="https://github.com/40400/40400.github.io" target="_blank">康康</a> for <a href="https://www.adalab.cn" target="_blank">Adalab</a>
